@@ -1,14 +1,33 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "data": [
+    {
+      "id": 1,
+      "identifiers": [
+        {
+          "name": "instanceId",
+          "value": "2018"
+        },
+        {
+          "name": "commentId",
+          "value": "1"
+        }
+      ],
+      "actionTagFeeds": [
+        {
+          "name": "assign",
+          "status": "PENDING",
+          "feeds": [
+            {
+              "name": "resourceId",
+              "value": "2018"
+            },
+            {
+              "name": "assignee",
+              "value": "shaunak"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
